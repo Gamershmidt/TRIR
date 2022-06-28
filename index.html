@@ -1,0 +1,106 @@
+<!--Гамершмидт С. 21ВП1 В4-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type ="text/css" href ="css/styleindex.css">
+        <title>21 очко!</title>
+    </head>
+    <body>
+        <div class = "nav">
+            <h1>21 очко</h1>
+        <ul id="menu">
+            <li><a href="#" id = "me1"class = "menushka" style = "padding-right: 70px;">♤ Главная</a></li>
+            <li><a href="#" id = "me2"class = "menushka" style = "padding-right: 110px;"><font color = "#ed0b0e">♥</font> Вход</a></li>
+            <li><a href="#" id = "me3"class = "menushka">♧ Регистрация</a></li>
+            <li><a href="#" id = "me4"class = "menushka" style = "padding-right: 110px;"><font color = "#ed0b0e">♦</font> О нас</a></li>
+        </ul></div>
+        <div class="parallax">
+            <h1 id = "main" >
+                <div style = "margin-top: 50px;">Немного об игре 21 очко</div>
+                <div class = "inform">
+                    &emsp;&emsp;«Очко», также называемое «двадцать одно очко», или просто «двадцать одно» — русский
+                    вариант карточной игры, известной во многих странах.
+                </div>
+                <div class = "inform" style = "margin-top: 20px">
+                    &emsp;&emsp;Игра, размещенная на данном сайте, представляет собой ироническую
+                    адаптацию такой широкоизвестной игры, как «Очко», в виде детской развивающей игры.
+                </div>
+                <div class = "inform" style = "margin-top: 30px">
+                    &emsp;&emsp;Суть игры состоит в поиске набора чисел,
+                    имеющих сумму 21(или сумму равную заданному числу), среди некоторого количества элементов с разными числовыми
+                     значениями. В оригинальной версии игрок может победить, даже не набрав нужное количество очков, однако в адаптации 
+                     засчитываются только точные ответы. Другие комбинации чисел классифицируются иначе: «перебор» или «недобор» в зависимости 
+                    от данного ответа - и наказываются лишением одной из жизней,
+                    максимальное количество которых равняется трем.
+                </div>
+                <div class = "inform" style = "margin-top: 20px">
+                    &emsp;&emsp; Для того чтобы протестировать игру необходимо <b>Войти</b> или <b>Зарегистрироваться</b>. Учтите, что личные данные
+                    вы не сможете изменить, поэтому будьте внимательнее и не забывайте <b>Логин</b> и <b>Пароль</b>! 
+                </div>
+                <div class = "inform" style = "margin-top: 30px">
+                    &emsp;&emsp; Концепция игры является оригинальной идеей её создательницы. Некоторые визуальные элементы были позаимствованы
+                    из других игр с карточной тематикой. Все сходства с уже существующими проектами случайны. Более подробную информацию
+                    о проекте (лабораторной работе) смотрите в разделе «О нас».
+                </div>
+            </h1>
+            <h1 id = "aboutus" class = "about-hidden">
+                <div style = "margin-top: 50px;">О нас</div>
+                <div style = "margin-top: 20px; font-size: 40px;"> Лабораторная работа 7</div>
+                <div class = "inform" style = "margin-top: 20px">
+                    &emsp;&emsp; Выполнила Гамершмидт Софья, студентка группы 21ВП1, вариант № 4.
+                    
+                </div>
+                <div class = "inform" style = "margin-top: 20px;margin-bottom: 30px">
+                    &emsp;&emsp;<b>Задание:</b> Перемести в контейнер цифры так, чтобы в сумме они давали число 21.
+                </div><img src = "img/task.jpg">
+            </h1>
+            <div class = "enter enter-hidden" id = "enter">
+                <h1 > Войти</h1>
+                <div >
+                    <label> <input class = "caption" id="login"> Логин </label>
+                    <div id = 'login1' class = 'mistake'></div>
+                </div>
+                <div >
+                    <label> <input class = "caption" id="password"> Пароль </label>
+                    <div id = 'password1' class = 'mistake'></div>
+                </div>
+                <div>
+                    <a class = "ent"  id = "loginto"> Войти</a>
+                </div>
+            </div>
+            <div class = "enter regist-hidden" id = "regist">
+                <h1 style="font-size: 50px;margin-bottom:10px;"> Регистрация</h1>
+                <div >
+                    <label> <input class = "caption" id="log"> Логин </label>
+                    <div id = 'log1' class = 'mistake'></div>
+                </div>
+                <div >
+                    <label> <input class = "caption" name = "pass "id="pass"> Пароль </label>
+                    <div id = 'pass1' class = 'mistake'></div>
+                </div>
+                <div >
+                    <label> <input class = "caption" name = "name"id="name"> Имя </label>
+                    <div id = 'name1' class = 'mistake'></div>
+                </div>
+                <div >
+                    <label> <input class = "caption" id="number"> Номер телефона </label>
+                    <div id = 'number1' class = 'mistake'></div>
+                </div>
+                <div >
+                    <label> <input class = "caption" id="email"> Эл. почта </label>
+                    <div id = 'email1' class = 'mistake'></div>
+                </div>
+                <div id = "regg">
+                    <input type = "submit" class = "btn" id = "goto" value = "Зарегистрироваться">
+                </div>
+                <div id = "sub" class = "sub-hidden">
+                    <div class="text-center" style = "font-size: 16px"> Регистрация успешно завершена</div>
+                </div>
+            </div>
+            <div class="mask"></div>
+         </div>
+        <script type ="text/javascript" src="js/face.js"></script>
+        <script type ="text/javascript" src="js/jquery-3.3.1.js"></script>
+    </body>
+</html>  
